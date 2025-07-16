@@ -1,0 +1,1460 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Province Parameter' datatype='string' name='[Province Parameter]' param-domain-type='list' role='measure' type='nominal' value='&quot;ABRA&quot;'>
+        <calculation class='tableau' formula='&quot;ABRA&quot;' />
+        <members>
+          <member value='&quot;ABRA&quot;' />
+          <member value='&quot;AGUSAN DEL NORTE&quot;' />
+          <member value='&quot;AGUSAN DEL SUR&quot;' />
+          <member value='&quot;AKLAN&quot;' />
+          <member value='&quot;ALBAY&quot;' />
+          <member value='&quot;AMERICAS&quot;' />
+          <member value='&quot;ANTIQUE&quot;' />
+          <member value='&quot;APAYAO&quot;' />
+          <member value='&quot;ASIA PACIFIC&quot;' />
+          <member value='&quot;AURORA&quot;' />
+          <member value='&quot;BASILAN&quot;' />
+          <member value='&quot;BATAAN&quot;' />
+          <member value='&quot;BATANES&quot;' />
+          <member value='&quot;BATANGAS&quot;' />
+          <member value='&quot;BENGUET&quot;' />
+          <member value='&quot;BILIRAN&quot;' />
+          <member value='&quot;BOHOL&quot;' />
+          <member value='&quot;BUKIDNON&quot;' />
+          <member value='&quot;BULACAN&quot;' />
+          <member value='&quot;CAGAYAN&quot;' />
+          <member value='&quot;CAMARINES NORTE&quot;' />
+          <member value='&quot;CAMARINES SUR&quot;' />
+          <member value='&quot;CAMIGUIN&quot;' />
+          <member value='&quot;CAPIZ&quot;' />
+          <member value='&quot;CATANDUANES&quot;' />
+          <member value='&quot;CAVITE&quot;' />
+          <member value='&quot;CEBU&quot;' />
+          <member value='&quot;COTABATO&quot;' />
+          <member value='&quot;DAVAO DE ORO&quot;' />
+          <member value='&quot;DAVAO DEL NORTE&quot;' />
+          <member value='&quot;DAVAO DEL SUR&quot;' />
+          <member value='&quot;DAVAO OCCIDENTAL&quot;' />
+          <member value='&quot;DAVAO ORIENTAL&quot;' />
+          <member value='&quot;DINAGAT ISLANDS&quot;' />
+          <member value='&quot;EASTERN SAMAR&quot;' />
+          <member value='&quot;EUROPE&quot;' />
+          <member value='&quot;GUIMARAS&quot;' />
+          <member value='&quot;IFUGAO&quot;' />
+          <member value='&quot;ILOCOS NORTE&quot;' />
+          <member value='&quot;ILOCOS SUR&quot;' />
+          <member value='&quot;ILOILO&quot;' />
+          <member value='&quot;ISABELA&quot;' />
+          <member value='&quot;KALINGA&quot;' />
+          <member value='&quot;LA UNION&quot;' />
+          <member value='&quot;LAGUNA&quot;' />
+          <member value='&quot;LANAO DEL NORTE&quot;' />
+          <member value='&quot;LANAO DEL SUR&quot;' />
+          <member value='&quot;LEYTE&quot;' />
+          <member value='&quot;MAGUINDANAO&quot;' />
+          <member value='&quot;MARINDUQUE&quot;' />
+          <member value='&quot;MASBATE&quot;' />
+          <member value='&quot;MIDDLE EAST AND AFRICAS&quot;' />
+          <member value='&quot;MISAMIS OCCIDENTAL&quot;' />
+          <member value='&quot;MISAMIS ORIENTAL&quot;' />
+          <member value='&quot;MOUNTAIN PROVINCE&quot;' />
+          <member value='&quot;NCR - FOURTH DISTRICT&quot;' />
+          <member value='&quot;NCR - MANILA&quot;' />
+          <member value='&quot;NCR - SECOND DISTRICT&quot;' />
+          <member value='&quot;NCR - THIRD DISTRICT&quot;' />
+          <member value='&quot;NEGROS OCCIDENTAL&quot;' />
+          <member value='&quot;NEGROS ORIENTAL&quot;' />
+          <member value='&quot;NORTHERN SAMAR&quot;' />
+          <member value='&quot;NUEVA ECIJA&quot;' />
+          <member value='&quot;NUEVA VIZCAYA&quot;' />
+          <member value='&quot;OCCIDENTAL MINDORO&quot;' />
+          <member value='&quot;ORIENTAL MINDORO&quot;' />
+          <member value='&quot;PALAWAN&quot;' />
+          <member value='&quot;PAMPANGA&quot;' />
+          <member value='&quot;PANGASINAN&quot;' />
+          <member value='&quot;QUEZON&quot;' />
+          <member value='&quot;QUIRINO&quot;' />
+          <member value='&quot;RIZAL&quot;' />
+          <member value='&quot;ROMBLON&quot;' />
+          <member value='&quot;SAMAR&quot;' />
+          <member value='&quot;SARANGANI&quot;' />
+          <member value='&quot;SIQUIJOR&quot;' />
+          <member value='&quot;SORSOGON&quot;' />
+          <member value='&quot;SOUTH COTABATO&quot;' />
+          <member value='&quot;SOUTHERN LEYTE&quot;' />
+          <member value='&quot;SULTAN KUDARAT&quot;' />
+          <member value='&quot;SULU&quot;' />
+          <member value='&quot;SURIGAO DEL NORTE&quot;' />
+          <member value='&quot;SURIGAO DEL SUR&quot;' />
+          <member value='&quot;TAGUIG - PATEROS&quot;' />
+          <member value='&quot;TARLAC&quot;' />
+          <member value='&quot;TAWI-TAWI&quot;' />
+          <member value='&quot;ZAMBALES&quot;' />
+          <member value='&quot;ZAMBOANGA DEL NORTE&quot;' />
+          <member value='&quot;ZAMBOANGA DEL SUR&quot;' />
+          <member value='&quot;ZAMBOANGA SIBUGAY&quot;' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='pres (pres)' inline='true' name='federated.1ypooor0tzc6nc15s54ri05nzx4f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='pres' name='excel-direct.136bu6909t8uns15bsg400olels2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/nejic/Desktop/RAVEN/ProjectData/Tableau/Election2022/pres.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.136bu6909t8uns15bsg400olels2' name='pres' table='[pres$]' type='table'>
+          <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='region' ordinal='1' />
+            <column datatype='string' name='province' ordinal='2' />
+            <column datatype='string' name='city' ordinal='3' />
+            <column datatype='string' name='brgy' ordinal='4' />
+            <column datatype='integer' name='precinct' ordinal='5' />
+            <column datatype='integer' name='total_votes' ordinal='6' />
+            <column datatype='integer' name='pres_1_abella' ordinal='7' />
+            <column datatype='integer' name='pres_2_de_guzman' ordinal='8' />
+            <column datatype='integer' name='pres_3_domagoso' ordinal='9' />
+            <column datatype='integer' name='pres_4_gonzales' ordinal='10' />
+            <column datatype='integer' name='pres_5_lacson' ordinal='11' />
+            <column datatype='integer' name='pres_6_mangondato' ordinal='12' />
+            <column datatype='integer' name='pres_7_marcos' ordinal='13' />
+            <column datatype='integer' name='pres_8_montemayor' ordinal='14' />
+            <column datatype='integer' name='pres_9_pacquiao' ordinal='15' />
+            <column datatype='integer' name='pres_10_robredo' ordinal='16' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[pres]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q10001:no:A1:Q10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RPH_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>province</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[province]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>province</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RPH_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RPH_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brgy</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[brgy]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>brgy</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RPH_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>precinct</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[precinct]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>precinct</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_votes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_votes]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>total_votes</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_1_abella</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_1_abella]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_1_abella</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_2_de_guzman</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_2_de_guzman]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_2_de_guzman</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_3_domagoso</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_3_domagoso]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_3_domagoso</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_4_gonzales</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_4_gonzales]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_4_gonzales</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_5_lacson</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_5_lacson]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_5_lacson</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_6_mangondato</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_6_mangondato]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_6_mangondato</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_7_marcos</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_7_marcos]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_7_marcos</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_8_montemayor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_8_montemayor]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_8_montemayor</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_9_pacquiao</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_9_pacquiao]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_9_pacquiao</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pres_10_robredo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pres_10_robredo]</local-name>
+            <parent-name>[pres]</parent-name>
+            <remote-alias>pres_10_robredo</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Votes - Abella' datatype='integer' name='[Calculation_449797034663391233]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_1_abella]) }' />
+      </column>
+      <column caption='Top Candidate per Province' datatype='string' name='[Calculation_574490447915597824]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_449797034663391233] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Abella&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Abella (copy)_449797034664079363] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;De Guzman&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Domagoso&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Gonzales&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Lacson&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Mangondato&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Abella (copy)_449797034663616514] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Marcos&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Montemayor&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Pacquiao&quot;&#13;&#10;&#13;&#10;ELSE &quot;Robredo&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Top Vote Count' datatype='integer' name='[Calculation_879890798725808128]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Calculation_574490447915597824] == &quot;Marcos&quot; THEN [pres_7_marcos] END' />
+      </column>
+      <column caption='Sum of Pres Abella' datatype='integer' name='[Calculation_879890798727294977]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([pres_1_abella])' />
+      </column>
+      <column caption='Sum of Pres Marcos' datatype='integer' name='[Calculation_879890798727815170]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([pres_7_marcos])' />
+      </column>
+      <column caption='Top Candidate Vote Count' datatype='integer' name='[Calculation_879890798738460675]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] :&#13;&#10;    MAX(&#13;&#10;        IF [Calculation_574490447915597824] = &quot;Abella&quot; THEN [Calculation_449797034663391233]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;De Guzman&quot; THEN [Total Votes - Abella (copy)_449797034664079363]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Domagoso&quot; THEN [Total Votes - De Guzman (copy)_449797034664251396]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Gonzales&quot; THEN [Total Votes - Domagoso (copy)_449797034664497158]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Lacson&quot; THEN [Total Votes - Gonzales (copy)_449797034664620039]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Mangondato&quot; THEN [Total Votes - Lacson (copy)_449797034664751112]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Marcos&quot; THEN [Total Votes - Abella (copy)_449797034663616514]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Montemayor&quot; THEN [Total Votes - Mangondato (copy)_449797034664894473]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Pacquiao&quot; THEN [Total Votes - Montemayor (copy)_449797034665046026]&#13;&#10;        ELSE [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;        END&#13;&#10;    )&#13;&#10;}' />
+      </column>
+      <column caption='Total Votes - Marcos' datatype='integer' name='[Total Votes - Abella (copy)_449797034663616514]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_7_marcos]) }' />
+      </column>
+      <column caption='Total Votes - De Guzman' datatype='integer' name='[Total Votes - Abella (copy)_449797034664079363]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_2_de_guzman]) }' />
+      </column>
+      <column caption='Total Votes - Domagoso' datatype='integer' name='[Total Votes - De Guzman (copy)_449797034664251396]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_3_domagoso]) }' />
+      </column>
+      <column caption='Total Votes - Gonzales' datatype='integer' name='[Total Votes - Domagoso (copy)_449797034664497158]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_4_gonzales]) }' />
+      </column>
+      <column caption='Total Votes - Lacson' datatype='integer' name='[Total Votes - Gonzales (copy)_449797034664620039]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_5_lacson]) }' />
+      </column>
+      <column caption='Total Votes - Mangondato' datatype='integer' name='[Total Votes - Lacson (copy)_449797034664751112]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_6_mangondato]) }' />
+      </column>
+      <column caption='Total Votes - Montemayor' datatype='integer' name='[Total Votes - Mangondato (copy)_449797034664894473]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_8_montemayor]) }' />
+      </column>
+      <column caption='Total Votes - Pacquiao' datatype='integer' name='[Total Votes - Montemayor (copy)_449797034665046026]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_9_pacquiao]) }' />
+      </column>
+      <column caption='Total Votes - Robredo' datatype='integer' name='[Total Votes - Pacquiao (copy)_449797034665209867]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_10_robredo]) }' />
+      </column>
+      <column caption='pres' datatype='table' name='[__tableau_internal_object_id__].[pres_D1AB6DC169104835A9A249FE9BC98023]' role='measure' type='quantitative' />
+      <column caption='Brgy' datatype='string' name='[brgy]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Precinct' datatype='integer' name='[precinct]' role='measure' type='quantitative' />
+      <column caption='Pres 10 Robredo' datatype='integer' name='[pres_10_robredo]' role='measure' type='quantitative' />
+      <column caption='Pres 1 Abella' datatype='integer' name='[pres_1_abella]' role='measure' type='quantitative' />
+      <column caption='Pres 2 De Guzman' datatype='integer' name='[pres_2_de_guzman]' role='measure' type='quantitative' />
+      <column caption='Pres 3 Domagoso' datatype='integer' name='[pres_3_domagoso]' role='measure' type='quantitative' />
+      <column caption='Pres 4 Gonzales' datatype='integer' name='[pres_4_gonzales]' role='measure' type='quantitative' />
+      <column caption='Pres 5 Lacson' datatype='integer' name='[pres_5_lacson]' role='measure' type='quantitative' />
+      <column caption='Pres 6 Mangondato' datatype='integer' name='[pres_6_mangondato]' role='measure' type='quantitative' />
+      <column caption='Pres 7 Marcos' datatype='integer' name='[pres_7_marcos]' role='measure' type='quantitative' />
+      <column caption='Pres 8 Montemayor' datatype='integer' name='[pres_8_montemayor]' role='measure' type='quantitative' />
+      <column caption='Pres 9 Pacquiao' datatype='integer' name='[pres_9_pacquiao]' role='measure' type='quantitative' />
+      <column caption='Province' datatype='string' name='[province]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;NCR - FOURTH DISTRICT&quot;' value='&quot;Metropolitan Manila&quot;' />
+          <semantic-value key='&quot;NCR - MANILA&quot;' value='&quot;Metropolitan Manila&quot;' />
+          <semantic-value key='&quot;NCR - SECOND DISTRICT&quot;' value='&quot;Metropolitan Manila&quot;' />
+          <semantic-value key='&quot;NCR - THIRD DISTRICT&quot;' value='&quot;Metropolitan Manila&quot;' />
+          <semantic-value key='&quot;TAGUIG - PATEROS&quot;' value='&quot;Metropolitan Manila&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Total Votes' datatype='integer' name='[total_votes]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_574490447915597824]' derivation='None' name='[none:Calculation_574490447915597824:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='province, city'>
+          <field>[province]</field>
+          <field>[city]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/nejic/AppData/Local/Temp/TableauTemp/#TableauTemp_0ypfzpa1ppre9o1eww4me086kq3t.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/13/2025 01:50:39 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>105971</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>region</remote-alias>
+              <ordinal>1</ordinal>
+              <family>pres</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RPH_S2' />
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>province</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[province]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>province</remote-alias>
+              <ordinal>2</ordinal>
+              <family>pres</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>121</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RPH_S2' />
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>city</remote-alias>
+              <ordinal>3</ordinal>
+              <family>pres</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4265</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RPH_S2' />
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brgy</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[brgy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brgy</remote-alias>
+              <ordinal>4</ordinal>
+              <family>pres</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19278</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RPH_S2' />
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>precinct</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[precinct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>precinct</remote-alias>
+              <ordinal>5</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>105971</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_votes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_votes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_votes</remote-alias>
+              <ordinal>6</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1647</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_1_abella</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_1_abella]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_1_abella</remote-alias>
+              <ordinal>7</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_2_de_guzman</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_2_de_guzman]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_2_de_guzman</remote-alias>
+              <ordinal>8</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_3_domagoso</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_3_domagoso]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_3_domagoso</remote-alias>
+              <ordinal>9</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>299</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_4_gonzales</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_4_gonzales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_4_gonzales</remote-alias>
+              <ordinal>10</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_5_lacson</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_5_lacson]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_5_lacson</remote-alias>
+              <ordinal>11</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>132</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_6_mangondato</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_6_mangondato]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_6_mangondato</remote-alias>
+              <ordinal>12</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>160</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_7_marcos</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_7_marcos]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_7_marcos</remote-alias>
+              <ordinal>13</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1971</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_8_montemayor</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_8_montemayor]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_8_montemayor</remote-alias>
+              <ordinal>14</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_9_pacquiao</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_9_pacquiao]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_9_pacquiao</remote-alias>
+              <ordinal>15</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>811</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pres_10_robredo</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pres_10_robredo]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pres_10_robredo</remote-alias>
+              <ordinal>16</ordinal>
+              <family>pres</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1327</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[pres_D1AB6DC169104835A9A249FE9BC98023]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_574490447915597824:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Abella&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mangondato&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Lacson&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Pacquiao&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gonzales&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Marcos&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Domagoso&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Robredo&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Philippines&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='F1' />
+        <field-sort-custom-order field='Calculation_574490447915597824' />
+        <field-sort-custom-order field='Calculation_879890798725808128' />
+        <field-sort-custom-order field='region' />
+        <field-sort-custom-order field='province' />
+        <field-sort-custom-order field='city' />
+        <field-sort-custom-order field='brgy' />
+        <field-sort-custom-order field='precinct' />
+        <field-sort-custom-order field='total_votes' />
+        <field-sort-custom-order field='pres_1_abella' />
+        <field-sort-custom-order field='Calculation_449797034663391233' />
+        <field-sort-custom-order field='Total Votes - Abella (copy)_449797034664079363' />
+        <field-sort-custom-order field='Total Votes - De Guzman (copy)_449797034664251396' />
+        <field-sort-custom-order field='Total Votes - Domagoso (copy)_449797034664497158' />
+        <field-sort-custom-order field='Total Votes - Gonzales (copy)_449797034664620039' />
+        <field-sort-custom-order field='Total Votes - Lacson (copy)_449797034664751112' />
+        <field-sort-custom-order field='Total Votes - Mangondato (copy)_449797034664894473' />
+        <field-sort-custom-order field='Total Votes - Montemayor (copy)_449797034665046026' />
+        <field-sort-custom-order field='Total Votes - Pacquiao (copy)_449797034665209867' />
+        <field-sort-custom-order field='Total Votes - Abella (copy)_449797034663616514' />
+        <field-sort-custom-order field='Calculation_879890798738460675' />
+        <field-sort-custom-order field='Calculation_879890798727294977' />
+        <field-sort-custom-order field='pres_2_de_guzman' />
+        <field-sort-custom-order field='pres_3_domagoso' />
+        <field-sort-custom-order field='pres_4_gonzales' />
+        <field-sort-custom-order field='pres_5_lacson' />
+        <field-sort-custom-order field='pres_6_mangondato' />
+        <field-sort-custom-order field='pres_7_marcos' />
+        <field-sort-custom-order field='Calculation_879890798727815170' />
+        <field-sort-custom-order field='pres_8_montemayor' />
+        <field-sort-custom-order field='pres_9_pacquiao' />
+        <field-sort-custom-order field='pres_10_robredo' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='pres' id='pres_D1AB6DC169104835A9A249FE9BC98023'>
+            <properties context=''>
+              <relation connection='excel-direct.136bu6909t8uns15bsg400olels2' name='pres' table='[pres$]' type='table'>
+                <columns gridOrigin='A1:Q10001:no:A1:Q10001:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='region' ordinal='1' />
+                  <column datatype='string' name='province' ordinal='2' />
+                  <column datatype='string' name='city' ordinal='3' />
+                  <column datatype='string' name='brgy' ordinal='4' />
+                  <column datatype='integer' name='precinct' ordinal='5' />
+                  <column datatype='integer' name='total_votes' ordinal='6' />
+                  <column datatype='integer' name='pres_1_abella' ordinal='7' />
+                  <column datatype='integer' name='pres_2_de_guzman' ordinal='8' />
+                  <column datatype='integer' name='pres_3_domagoso' ordinal='9' />
+                  <column datatype='integer' name='pres_4_gonzales' ordinal='10' />
+                  <column datatype='integer' name='pres_5_lacson' ordinal='11' />
+                  <column datatype='integer' name='pres_6_mangondato' ordinal='12' />
+                  <column datatype='integer' name='pres_7_marcos' ordinal='13' />
+                  <column datatype='integer' name='pres_8_montemayor' ordinal='14' />
+                  <column datatype='integer' name='pres_9_pacquiao' ordinal='15' />
+                  <column datatype='integer' name='pres_10_robredo' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pres (pres)' name='federated.1ypooor0tzc6nc15s54ri05nzx4f' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1ypooor0tzc6nc15s54ri05nzx4f'>
+            <column caption='Total Votes - Abella' datatype='integer' name='[Calculation_449797034663391233]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_1_abella]) }' />
+            </column>
+            <column caption='Top Candidate per Province' datatype='string' name='[Calculation_574490447915597824]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_449797034663391233] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;   [Calculation_449797034663391233] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Abella&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Abella (copy)_449797034664079363] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034664079363] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;De Guzman&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - De Guzman (copy)_449797034664251396] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Domagoso&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Domagoso (copy)_449797034664497158] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Gonzales&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Gonzales (copy)_449797034664620039] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Lacson&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Lacson (copy)_449797034664751112] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Mangondato&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Abella (copy)_449797034663616514] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Abella (copy)_449797034663616514] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Marcos&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Montemayor (copy)_449797034665046026] AND &#13;&#10;       [Total Votes - Mangondato (copy)_449797034664894473] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Montemayor&quot;&#13;&#10;&#13;&#10;ELSEIF [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Calculation_449797034663391233] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Abella (copy)_449797034664079363] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - De Guzman (copy)_449797034664251396] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Domagoso (copy)_449797034664497158] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Gonzales (copy)_449797034664620039] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Lacson (copy)_449797034664751112] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Abella (copy)_449797034663616514] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Mangondato (copy)_449797034664894473] AND &#13;&#10;       [Total Votes - Montemayor (copy)_449797034665046026] &gt;= [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;THEN &quot;Pacquiao&quot;&#13;&#10;&#13;&#10;ELSE &quot;Robredo&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Top Candidate Vote Count' datatype='integer' name='[Calculation_879890798738460675]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] :&#13;&#10;    MAX(&#13;&#10;        IF [Calculation_574490447915597824] = &quot;Abella&quot; THEN [Calculation_449797034663391233]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;De Guzman&quot; THEN [Total Votes - Abella (copy)_449797034664079363]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Domagoso&quot; THEN [Total Votes - De Guzman (copy)_449797034664251396]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Gonzales&quot; THEN [Total Votes - Domagoso (copy)_449797034664497158]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Lacson&quot; THEN [Total Votes - Gonzales (copy)_449797034664620039]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Mangondato&quot; THEN [Total Votes - Lacson (copy)_449797034664751112]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Marcos&quot; THEN [Total Votes - Abella (copy)_449797034663616514]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Montemayor&quot; THEN [Total Votes - Mangondato (copy)_449797034664894473]&#13;&#10;        ELSEIF [Calculation_574490447915597824] = &quot;Pacquiao&quot; THEN [Total Votes - Montemayor (copy)_449797034665046026]&#13;&#10;        ELSE [Total Votes - Pacquiao (copy)_449797034665209867]&#13;&#10;        END&#13;&#10;    )&#13;&#10;}' />
+            </column>
+            <column caption='Total Votes - Marcos' datatype='integer' name='[Total Votes - Abella (copy)_449797034663616514]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_7_marcos]) }' />
+            </column>
+            <column caption='Total Votes - De Guzman' datatype='integer' name='[Total Votes - Abella (copy)_449797034664079363]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_2_de_guzman]) }' />
+            </column>
+            <column caption='Total Votes - Domagoso' datatype='integer' name='[Total Votes - De Guzman (copy)_449797034664251396]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_3_domagoso]) }' />
+            </column>
+            <column caption='Total Votes - Gonzales' datatype='integer' name='[Total Votes - Domagoso (copy)_449797034664497158]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_4_gonzales]) }' />
+            </column>
+            <column caption='Total Votes - Lacson' datatype='integer' name='[Total Votes - Gonzales (copy)_449797034664620039]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_5_lacson]) }' />
+            </column>
+            <column caption='Total Votes - Mangondato' datatype='integer' name='[Total Votes - Lacson (copy)_449797034664751112]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_6_mangondato]) }' />
+            </column>
+            <column caption='Total Votes - Montemayor' datatype='integer' name='[Total Votes - Mangondato (copy)_449797034664894473]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_8_montemayor]) }' />
+            </column>
+            <column caption='Total Votes - Pacquiao' datatype='integer' name='[Total Votes - Montemayor (copy)_449797034665046026]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_9_pacquiao]) }' />
+            </column>
+            <column caption='Total Votes - Robredo' datatype='integer' name='[Total Votes - Pacquiao (copy)_449797034665209867]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [province] : SUM([pres_10_robredo]) }' />
+            </column>
+            <column-instance column='[Calculation_574490447915597824]' derivation='None' name='[none:Calculation_574490447915597824:nk]' pivot='key' type='nominal' />
+            <column-instance column='[province]' derivation='None' name='[none:province:nk]' pivot='key' type='nominal' />
+            <column caption='Pres 10 Robredo' datatype='integer' name='[pres_10_robredo]' role='measure' type='quantitative' />
+            <column caption='Pres 1 Abella' datatype='integer' name='[pres_1_abella]' role='measure' type='quantitative' />
+            <column caption='Pres 2 De Guzman' datatype='integer' name='[pres_2_de_guzman]' role='measure' type='quantitative' />
+            <column caption='Pres 3 Domagoso' datatype='integer' name='[pres_3_domagoso]' role='measure' type='quantitative' />
+            <column caption='Pres 4 Gonzales' datatype='integer' name='[pres_4_gonzales]' role='measure' type='quantitative' />
+            <column caption='Pres 5 Lacson' datatype='integer' name='[pres_5_lacson]' role='measure' type='quantitative' />
+            <column caption='Pres 6 Mangondato' datatype='integer' name='[pres_6_mangondato]' role='measure' type='quantitative' />
+            <column caption='Pres 7 Marcos' datatype='integer' name='[pres_7_marcos]' role='measure' type='quantitative' />
+            <column caption='Pres 8 Montemayor' datatype='integer' name='[pres_8_montemayor]' role='measure' type='quantitative' />
+            <column caption='Pres 9 Pacquiao' datatype='integer' name='[pres_9_pacquiao]' role='measure' type='quantitative' />
+            <column caption='Province' datatype='string' name='[province]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;NCR - FOURTH DISTRICT&quot;' value='&quot;Metropolitan Manila&quot;' />
+                <semantic-value key='&quot;NCR - MANILA&quot;' value='&quot;Metropolitan Manila&quot;' />
+                <semantic-value key='&quot;NCR - SECOND DISTRICT&quot;' value='&quot;Metropolitan Manila&quot;' />
+                <semantic-value key='&quot;NCR - THIRD DISTRICT&quot;' value='&quot;Metropolitan Manila&quot;' />
+                <semantic-value key='&quot;TAGUIG - PATEROS&quot;' value='&quot;Metropolitan Manila&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Calculation_879890798738460675]' derivation='Sum' name='[sum:Calculation_879890798738460675:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1ypooor0tzc6nc15s54ri05nzx4f].[Longitude (generated)]' field-type='quantitative' max='14369334.557057016' min='12788867.458142973' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1ypooor0tzc6nc15s54ri05nzx4f].[Latitude (generated)]' field-type='quantitative' max='1993549.7599446701' min='1059012.6706434479' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:Calculation_574490447915597824:nk]' />
+              <lod column='[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:province:nk]' />
+              <lod column='[federated.1ypooor0tzc6nc15s54ri05nzx4f].[sum:Calculation_879890798738460675:qk]' />
+              <lod column='[federated.1ypooor0tzc6nc15s54ri05nzx4f].[sum:Calculation_879890798738460675:qk]' />
+              <geometry column='[federated.1ypooor0tzc6nc15s54ri05nzx4f].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[Latitude (generated)]</rows>
+        <cols>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{73C7C12C-FA32-43C4-8BC5-AC287B1184DD}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pres (pres)' name='federated.1ypooor0tzc6nc15s54ri05nzx4f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ypooor0tzc6nc15s54ri05nzx4f'>
+            <column-instance column='[province]' derivation='None' name='[none:province:nk]' pivot='key' type='nominal' />
+            <column caption='Pres 7 Marcos' datatype='integer' name='[pres_7_marcos]' role='measure' type='quantitative' />
+            <column caption='Province' datatype='string' name='[province]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;NCR - FOURTH DISTRICT&quot;' value='&quot;Metropolitan Manila&quot;' />
+                <semantic-value key='&quot;NCR - MANILA&quot;' value='&quot;Metropolitan Manila&quot;' />
+                <semantic-value key='&quot;NCR - SECOND DISTRICT&quot;' value='&quot;Metropolitan Manila&quot;' />
+                <semantic-value key='&quot;NCR - THIRD DISTRICT&quot;' value='&quot;Metropolitan Manila&quot;' />
+                <semantic-value key='&quot;TAGUIG - PATEROS&quot;' value='&quot;Metropolitan Manila&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[pres_7_marcos]' derivation='Sum' name='[sum:pres_7_marcos:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:province:nk]'>
+            <groupfilter function='member' level='[none:province:nk]' member='&quot;QUEZON&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:province:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[sum:pres_7_marcos:qk]</rows>
+        <cols>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:province:nk]</cols>
+      </table>
+      <simple-id uuid='{87394C89-C9C6-4EC8-87BA-34007F127ABB}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card type='title' />
+            <card pane-specification-id='0' param='[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:Calculation_574490447915597824:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:Calculation_574490447915597824:nk]</field>
+            <field>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:city:nk]</field>
+            <field>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:province:nk]</field>
+            <field>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:region:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='4' />
+      </viewpoint>
+      <simple-id uuid='{D364C8F6-16DF-44FD-9615-4EEC31D0B674}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ypooor0tzc6nc15s54ri05nzx4f].[none:province:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D46A6242-B6B7-4A21-A4C1-CE0360054F2F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='130'>
+      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
+      VQrBQ/0HtzlfyUspMYUAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
