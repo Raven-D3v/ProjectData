@@ -1,0 +1,6 @@
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/SPARCS-Hospital-2016-modfied.csv' 
+INTO TABLE sparcs_hospital_tb
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
